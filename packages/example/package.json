@@ -1,0 +1,10 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "dependencies": {
+        "common": "1.0.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
