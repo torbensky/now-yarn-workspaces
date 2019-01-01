@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "public": true,
   "builds": [
     {
       "src": "packages/example/index.js",
@@ -11,5 +12,9 @@
       "src": "/(.*)",
       "dest": "/packages/$1"
     }
-  ]
+  ],
+  "github": {
+    "autoJobCancelation": true,
+    "enabled": true
+  }
 }
